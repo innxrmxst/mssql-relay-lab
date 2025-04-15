@@ -1,4 +1,6 @@
 
+On host MSSQL-1 disable firewall and set domain privileged user account as service account for MSSQL service.
+
 # Setup listener
 
 ```bash
