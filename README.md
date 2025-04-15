@@ -30,3 +30,4 @@ python3 mssql_coercer.py ludus/sql-user1:'Passw0rd!'@dummy -windows-auth -ip-fil
 # Credits
 
 - https://github.com/fortra/impacket/pull/1397
+- https://www.tripwire.com/state-of-security/how-to-prevent-high-risk-authentication-coercion-vulnerabilities
