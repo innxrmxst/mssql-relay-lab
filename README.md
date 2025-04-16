@@ -11,6 +11,10 @@ On host MSSQL-1:
 1. Disable firewall.
 2. Setup domain privileged user account as a service account for the MSSQL service.
 
+By default, the service runs as NT SERVICE\mssqlserver , but many database admins
+modify the service to run as a domain user so that it may interact with other servers,
+services, and resources in the domain.
+
 ![mssql_xp_dirtree_multiple_coerce](https://github.com/innxrmxst/mssql-relay-lab/blob/main/mssql2smb/images/mssql_xp_dirtree_multiple_coerce.png)
 
 ## Setup a ntlmrelayx listener
