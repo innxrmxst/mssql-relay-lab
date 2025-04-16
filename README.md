@@ -11,7 +11,7 @@ On host MSSQL-1:
 1. Disable firewall.
 2. Setup domain privileged user account as a service account for the MSSQL service.
 
-![mssql_xp_dirtree_multiple_coerce](https://github.com/innxrmxst/mssql-relay-lab/blob/main/images/mssql2smb/mmssql_configuration.png)
+![mssql_xp_dirtree_multiple_coerce](https://github.com/innxrmxst/mssql-relay-lab/blob/main/mssql2smb/images/mssql_xp_dirtree_multiple_coerce.png)
 
 ## Setup a ntlmrelayx listener
 
@@ -32,11 +32,11 @@ python3 mssql-coercer.py -ip-file ~/ip_addresses_file.txt -username sql-user1 -p
 
 ### Coercer
 
-![mssql_xp_dirtree_multiple_coerce](https://github.com/innxrmxst/mssql-relay-lab/blob/main/images/mssql2smb/mssql_xp_dirtree_multiple_coerce.png)
+![mssql_xp_dirtree_multiple_coerce](https://github.com/innxrmxst/mssql-relay-lab/blob/main/mssql2smb/images//mssql_xp_dirtree_multiple_coerce.png)
 
 ### Listener
 
-![mssql2smb_ntlmrelayx](https://github.com/innxrmxst/mssql-relay-lab/blob/main/images/mssql2smb/mssql2smb_ntlmrelayx.png)
+![mssql2smb_ntlmrelayx](https://github.com/innxrmxst/mssql-relay-lab/blob/main/mssql2smb/images//mssql2smb_ntlmrelayx.png)
 
 ---
 
